@@ -16,3 +16,10 @@ dns.setServers(['8.8.8.8', '1.1.1.1']);
 
 npm create vite@latest
 npm install axios
+
+cd c:\Users\UMAIR\Desktop\test1\test1\backend
+echo node_modules/ > .gitignore
+echo .env >> .gitignore
+git add .gitignore package.json package-lock.json routes server.js models
+git commit -m "Add backend source files"
+git push origin main
