@@ -28,3 +28,8 @@ git push origin main
     "start": "node server.js",
     "dev": "nodemon server.js"
   },
+
+
+git init && echo node_modules/ >> .gitignore && echo .env >> .gitignore && git rm -r --cached node_modules 2>nul; git add . && git commit -m "Initial commit" && git branch -M main && git remote add origin https://github.com/your-username/your-repo.git && git push -u origin main
+
+git push origin main
