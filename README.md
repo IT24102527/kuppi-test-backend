@@ -23,3 +23,8 @@ echo .env >> .gitignore
 git add .gitignore package.json package-lock.json routes server.js models
 git commit -m "Add backend source files"
 git push origin main
+
+"scripts": {
+    "start": "node server.js",
+    "dev": "nodemon server.js"
+  },
